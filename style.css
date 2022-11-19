@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200&family=Montserrat:ital,wght@1,200&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
-
 body {
-    width: 80vw;
-    margin: 0 auto;
+    font-family:'Alexandria', sans-serif;;
 }
 /* header styling */
 header {
@@ -25,4 +25,60 @@ ul {
 a,h1 {
     text-decoration: none;
     color: white;
+}
+/* Hero text styling */
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    padding: 5em;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
+
+/* middle area -Work */
+.About-Me {
+    padding: 5em;
+    /* display: flex; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+
+.About-Me h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.pic {
+    max-width: 200px;
+    text-align: center;
+    transition: 1s;
+}
+
+.pic:hover {
+    transform: scale(1.1);
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Footer styling */
+footer {
+    color: #fff;
+    background-color: #1F2937;
+}
+
+footer p {
+    text-align: center;
+    padding: 1em;
 }
