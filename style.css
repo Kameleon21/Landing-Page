@@ -38,12 +38,44 @@ main{
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.top h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.top-img {
+    object-fit: cover;
+    width: 400px;
+}
+
+.btn {
+    background-color: rgb(8, 133, 236);
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 /* middle area -Work */
 .About-Me {
     padding: 5em;
-    /* display: flex; */
 }
 
 .container {
@@ -60,7 +92,7 @@ main{
 .pic {
     max-width: 200px;
     text-align: center;
-    transition: 1s;
+    transition: 0.7s;
 }
 
 .pic:hover {
@@ -71,6 +103,24 @@ img {
     height: 200px;
 }
 
+/* Quote section */
+
+.Quote {
+    padding: 5em;
+    background: #E5E7EB;
+}
+
+.Quote blockquote {
+    font-style: light italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+figcaption {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1em;
+}
 
 /* Footer styling */
 footer {
