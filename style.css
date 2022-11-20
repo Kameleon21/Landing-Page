@@ -7,13 +7,17 @@
 body {
     font-family:'Alexandria', sans-serif;;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 /* header styling */
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 33em;
     align-items: center;
     background-color: #1F2937;
+    flex: auto;
     padding: 1em;
 }
 
@@ -29,17 +33,14 @@ a,h1 {
 }
 /* Hero text styling */
 
-main{
-    display: flex;
-    flex-direction: column;
-}
 
 .home {
     padding: 5em;
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 8em;
 }
 
 .top {
@@ -61,7 +62,8 @@ main{
 
 .btn {
     background-color: rgb(8, 133, 236);
-    padding: 10px;
+    color: #fff;
+    padding: 5px 10px;
     width: 100px;
     border-radius: 5px;
     margin: 10px 0;
@@ -123,11 +125,47 @@ figcaption {
     margin-top: 1em;
 }
 
+/* call to action */
+.btn-2 {
+    background-color: #fff;
+    padding: 5em;
+}
+
+.call-to{
+    background-color: rgb(8, 133, 236);
+    color: #fff;
+    padding: 3em;
+    width: 70vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.call-to h2 {
+    font-weight: bold;
+}
+
+.btn-3 {
+    width: 100px;
+    padding: 5px 10px;
+    background-color: rgb(8, 133, 236);
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn-3:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 /* Footer styling */
 footer {
     color: #fff;
     background-color: #1F2937;
-    margin-top: auto;
 }
 
 footer p {
