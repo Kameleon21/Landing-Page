@@ -6,6 +6,7 @@
 }
 body {
     font-family:'Alexandria', sans-serif;;
+    height: 100vh;
 }
 /* header styling */
 header {
@@ -126,6 +127,7 @@ figcaption {
 footer {
     color: #fff;
     background-color: #1F2937;
+    margin-top: auto;
 }
 
 footer p {
