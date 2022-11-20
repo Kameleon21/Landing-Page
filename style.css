@@ -60,6 +60,11 @@ a,h1 {
     width: 35vw;
 }
 
+.top h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
 .btn {
     background-color: rgb(8, 133, 236);
     color: #fff;
