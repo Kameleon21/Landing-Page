@@ -11,13 +11,16 @@ body {
     flex-direction: column;
 }
 /* header styling */
-header {
+.contain-header {
+    width: 70vw;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    gap: 33em;
+    justify-content: space-between;
     align-items: center;
+}
+
+header {
     background-color: #1F2937;
-    flex: auto;
     padding: 1em;
 }
 
@@ -38,26 +41,23 @@ a,h1 {
     padding: 5em;
     background-color: #1F2937;
     color: white;
+}
+
+.contain-home {
+    background-color: #1F2937;
+    width: 70vw;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    gap: 8em;
+    justify-content: space-between;
+}
+
+.contain-home img {
+    width: 35vw;
+    object-fit: cover;
 }
 
 .top {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-}
-
-.top h2 {
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
-.top-img {
-    object-fit: cover;
-    width: 400px;
+    width: 35vw;
 }
 
 .btn {
@@ -119,6 +119,11 @@ img {
     color: #1F2937;
 }
 
+figure {
+    width: 70vw;
+    margin: 0 auto;
+}
+
 figcaption {
     font-weight: bold;
     text-align: right;
@@ -134,12 +139,12 @@ figcaption {
 .call-to{
     background-color: rgb(8, 133, 236);
     color: #fff;
-    padding: 3em;
     width: 70vw;
+    padding: 1em 0em;
     margin: 0 auto;
     border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
